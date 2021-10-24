@@ -1,0 +1,200 @@
+/*CSS code is starting here*/
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin: 30px 150px 30px 90px;
+}
+/*CSS for navbar is starting here*/
+
+header { 
+    border-style: none;
+    border-width: 1px 50px; 
+    margin-bottom: 20px;
+}
+
+h1{
+  float: left;
+  font-size: 18px; 
+}
+ul {
+    text-align: right;
+    list-style-type: style type;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    border: 1px;
+  }
+  li {
+    display: inline;
+  }
+  li a {
+    color: #6b7280;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover:not(.active) {
+  color: #5a67d8;
+}
+li a.active {
+  color:#5a67d8;
+}
+
+/* CSS of main starting here */
+
+.overview-hero{
+    background-color: #e2e8f0; 
+    border-style: none;
+    border-width: 1px 50px; 
+    margin-bottom: 20px;
+    padding: 30px;
+
+}
+
+.overview-hero-image{
+    float: left;
+    padding-left: 200px;
+}
+
+.overview-hero-text{
+text-align: justify;    
+background-color:#e2e8f0;
+padding-bottom: 40px;
+padding-left: 450px;
+}
+
+/*css for learn about starting*/
+ 
+.card {
+    background-color: white;
+    width: 100%;
+  }
+
+  .cards {
+    max-width: 900px;
+    margin: 0 auto;  
+  }
+
+  .cards {
+    display: grid;
+    grid-gap: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+    border-color: #e2e8f0;
+    margin-bottom: 20px;
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+     
+/*COVID-19 testing programe is starting here*/
+
+.testing  {
+    background-color: #4a5568; 
+    color: white;
+    padding-bottom: 20px;
+    margin-bottom: 80px;
+}.testing-desciption{
+    
+    border-style: solid;
+    border-width: 1px 300px; 
+    border-style: solid,;
+    border-style: solid,;
+    border-color: #4a5568;
+    padding: 30px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+.cta .btn {
+    
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 5px;
+    
+    right: 350px;
+    top: 970px;
+  }
+  /*CSS for RECENT stories is starting here*/
+
+  .cir{
+    border-radius:50%;
+    float: left;
+}
+
+article{
+    color: black;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 200px; 
+    
+}
+.article-body{
+    text-align: justify;
+    color: black;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px 200px; 
+    padding-left: 30px;
+    padding-bottom: 20px;
+    
+}
+
+/*CSS for Newsletter is starting here*/
+
+.newsletter{
+    text-align: justify;
+    background-color: #48bb78;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 400px;
+}
+.btn{
+
+    background-color: #5a67d8 ;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: 35px;
+    
+}
+input{
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+}
+button {
+    font-size: 18px;
+    background-color: #5a67d8;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px #999999;
+    
+  }
+  button:hover, button:focus, button:active {
+    /* swap colors */
+    color: #EBF5FF;
+    background-color: #4312AE;
+    cursor: pointer; /* displays a hand */
+  }
+/*css for footer starting*/
+
+footer{
+    padding: 20px;
+    padding-left: 200px;
+    background-color: #4a5568 ;
+    color: white;
+
+}
